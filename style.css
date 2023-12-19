@@ -7,6 +7,7 @@
 
 body{
     color: #263138;  
+    
 }
 
 header{
@@ -125,3 +126,58 @@ h1, h2 {
     margin-top: -8px;
 }
 
+footer {
+    background-color:rgb(255, 114, 94, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px;
+    
+    
+}
+
+#slogan p {
+    max-width: 300px ;
+    
+}
+
+#slogan img {
+    margin-bottom: 10px;
+}
+
+footer .title {
+    display: block;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+footer nav a {
+    display: block;
+    color: #263138;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 3px;
+}
+
+
+#contato p {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+#contato a {
+    color: #263138;
+    text-decoration: none;
+}
+
+#copy {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#copy a {
+    color: #FF725E;
+}
