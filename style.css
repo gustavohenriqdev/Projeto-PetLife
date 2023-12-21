@@ -15,7 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 80px 24px 80px;
+    padding: 10px 80px 10px 80px;
 }
 
 header a{
@@ -124,6 +124,17 @@ h1, h2 {
     border-bottom: 1px solid #ff725E;
     border-radius: 0px 0px 8px 8px;
     margin-top: -8px;
+    padding: 0px 24px;
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    transition: .3s;
+}
+
+.duvida.active .paragrafo {
+    opacity: 1;
+    height: fit-content;
+    padding: 24px;
 }
 
 footer {
