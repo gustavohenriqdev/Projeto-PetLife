@@ -192,3 +192,141 @@ footer nav a {
 #copy a {
     color: #FF725E;
 }
+
+@media screen and (max-width:320px) {
+  
+    header {
+        padding: 15px 20px; 
+    }
+    
+    header img {
+        width: 65px;
+    }
+
+    header a {
+        padding: 4px; 
+        font-size: x-small;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    #inicio {
+        display: block;
+        flex-direction: column;
+        gap: 16px;
+        padding: 24px 20px 64px 20px; 
+        position: relative;
+    }
+    
+    #inicio img {
+        max-width: 100%;
+    }
+
+    h1, h2 {
+        font-weight: 600;
+        font-size: medium; 
+        margin-bottom: 16px;
+    }
+    
+    .paragrafo {
+        line-height: 18px; 
+        margin-bottom: 16px;
+    }
+    
+    #inicio a {
+        display: block;
+    }
+
+    .button, .button-trans {
+        padding: 15px; 
+        max-width: fit-content;
+    }
+
+    .absolute {
+       padding-bottom: 450px;
+       
+    }
+
+    #clinica, #farmacia, #duvidas {
+        flex-direction: column;
+        padding: 32px 20px;
+    }
+    
+    #clinica li {
+        margin-bottom: 8px; 
+        margin-left: 3px;
+    }
+    
+    #clinica img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #farmacia img {
+        max-width: 100%;
+        margin: 32px auto; /
+    }
+    
+    #farmacia .paragrafo {
+        max-width: 100%; 
+        margin: 0 auto;
+    }
+    
+    #duvidas {
+        padding: 20px;
+    }
+    
+    .duvida h3 {
+        font-size: 15px;
+        padding: 10px; 
+    }
+    
+    #duvidas img {
+        max-width: 100%;
+    }
+
+    footer {
+        display: block;
+        padding: 16px 20px; 
+    }
+
+    #slogan {
+        margin-bottom: 10px;
+        
+    }
+    #slogan img {
+        max-width: 70px;
+    }
+
+    #slogan p {
+        max-width: 100%; 
+        font-size: 14px;
+
+    }
+
+    footer div nav{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    footer nav {
+        font-size: 14px;
+    }
+
+    footer .title {
+        margin-bottom: 6px; 
+        font-size: 15px;
+        
+    }
+
+    #contato p {
+        font-size: 14px;
+    }
+    
+    #copy {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
