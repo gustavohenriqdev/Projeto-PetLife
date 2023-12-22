@@ -193,7 +193,7 @@ footer nav a {
     color: #FF725E;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:600px) {
   
     header {
         padding: 15px 20px; 
