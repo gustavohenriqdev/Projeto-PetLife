@@ -4,6 +4,13 @@ A Pet Life é uma empresa que se empenha em cuidar de animais de estimação, tr
 
 Projeto desenvolvido para estudo e pratica, empresa meramente ficticia.
 
+# Tecnologias usadas
+- HTML
+- CSS
+- Javascript
+  
+# Pagina
+
 Link para a pagina do projeto: https://gustavohenriqdev.github.io/Projeto-PetLife/
 
 Imagens indisponiveis...
